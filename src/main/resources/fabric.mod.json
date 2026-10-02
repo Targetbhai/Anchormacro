@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "anchormacro",
+  "version": "${version}",
+  "name": "Anchor Macro",
+  "description": "Right-click a block with a sword to place an anchor, charge it, shield it, detonate it with a totem, then switch back to the sword.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.anchormacro.AnchorMacroClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
